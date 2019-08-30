@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.0.5...v1.1.0) (2019-08-30)
+
+
+### Features
+
+* **arrays:** Add median ([ea3a5b2](https://github.com/JasonMatthewsDev/fjsutils/commit/ea3a5b2))
+
 ## [1.0.5](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.0.4...v1.0.5) (2019-08-30)
 
 
