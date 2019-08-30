@@ -4,6 +4,8 @@ jobs:
   - stage: install
     script: npm install
     skip_cleanup: true
+  - stage: test
+    script: jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
   - stage: release
     deploy:
       provider: script
