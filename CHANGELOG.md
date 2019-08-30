@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.0.4...v1.0.5) (2019-08-30)
+
+
+### Bug Fixes
+
+* npm ignore more files ([cf913d3](https://github.com/JasonMatthewsDev/fjsutils/commit/cf913d3))
+
 ## [1.0.4](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.0.3...v1.0.4) (2019-08-30)
 
 
