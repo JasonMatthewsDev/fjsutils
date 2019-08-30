@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.0.2...v1.0.3) (2019-08-30)
+
+
+### Bug Fixes
+
+* npm ignore coverage ([1b9d045](https://github.com/JasonMatthewsDev/fjsutils/commit/1b9d045))
+
 ## [1.0.2](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.0.1...v1.0.2) (2019-08-30)
 
 
