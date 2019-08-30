@@ -12,13 +12,13 @@ A collection of javascript utility functions written in a functional style.
 
 ### Installation
 ```
-npm i fjs-utils
+  npm i fjs-utils
 ```
 
 or
 
 ```
-yarn add fjs-utils
+  yarn add fjs-utils
 ```
 
 ### Usage
