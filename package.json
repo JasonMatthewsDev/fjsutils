@@ -12,7 +12,7 @@
     "clean": "rimraf dist",
     "lint": "npx eslint ./src ./tests",
     "prepare": "npm run test && npm run clean && npm run build",
-    "semantic-release": "semantic-release",
+    "semantic-release": "npm run build && semantic-release",
     "test": "jest --coverage"
   },
   "keywords": [

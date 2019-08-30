@@ -1,4 +1,5 @@
 # FJS-Utils
+[![Build Status](https://travis-ci.com/JasonMatthewsDev/fjsutils.svg?branch=master)](https://travis-ci.com/JasonMatthewsDev/fjsutils)
 A collection of javascript utility functions written in a functional style.
 
 ### Table of contents
