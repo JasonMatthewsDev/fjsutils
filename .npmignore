@@ -2,7 +2,7 @@ src
 node_modules
 tests
 babel.config.js
-coverages
+coverage
 jest.config.js
 commitlint.config.js
 .travis.yml
