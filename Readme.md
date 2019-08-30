@@ -101,6 +101,13 @@ import { curry } from 'fjs-utils/functions';
   console.log(mean([1, 2, 3])); // => 2
 ```
 
+  * **median** - Calculates the median of an array of numbers
+
+```javascript
+  import { median } from 'fjs-utils/arrays';
+  console.log(median([1, 2, 3])); // => 2
+```
+
   * **sample** - Returns random values from an array
 
 ```javascript
