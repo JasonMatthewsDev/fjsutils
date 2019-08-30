@@ -3,3 +3,10 @@ node_modules
 tests
 babel.config.js
 coverages
+jest.config.js
+commitlint.config.js
+.travis.yml
+.releaserc
+.nvmrc
+.eslint
+.editorconfig
