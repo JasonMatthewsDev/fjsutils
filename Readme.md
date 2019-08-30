@@ -4,7 +4,7 @@
 
 A collection of javascript utility functions written in a functional style.
 
-### Table of contents
+## Table of contents
 
 1. [installation](#installation)
 2. [arrays](#arrays)
@@ -13,7 +13,7 @@ A collection of javascript utility functions written in a functional style.
 5. [objects](#objects)
 6. [strings](#strings)
 
-### Installation
+## Installation
 ```
   npm i fjs-utils
 ```
@@ -24,10 +24,10 @@ or
   yarn add fjs-utils
 ```
 
-### Usage
+## Usage
 
 
-#### installation
+### installation
 To use the library just import it
 
 ```javascript
@@ -46,10 +46,13 @@ or
 import { curry } from 'fjs-utils/functions';
 ```
 
-### Utils
+## Utils
 
-#### arrays
-  * chunk - Splits an array into chunks
+### arrays
+<details>
+<summary>more</summary>
+
+  * **chunk** - Splits an array into chunks
 
 ```javascript
   import { chunk } from 'fjs-utils/arrays';
@@ -58,7 +61,7 @@ import { curry } from 'fjs-utils/functions';
   console.log(chunk(3, array)); // => [[1, 2, 3], [4, 5, 6], [7, 8, 9], [0]]
 ```
 
-  * flatten - Flattens an array 1 level
+  * **flatten** - Flattens an array 1 level
 
 ```javascript
   import { flatten } from 'fjs-utils/arrays';
@@ -67,7 +70,7 @@ import { curry } from 'fjs-utils/functions';
   console.log(flatten(array)); // => [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 ```
 
-  * getProp - Returns an array of values from a specified property in an array of objects
+  * **getProp** - Returns an array of values from a specified property in an array of objects
 
 ```javascript
   import { getProp } from 'fjs-utils/arrays';
@@ -83,7 +86,7 @@ import { curry } from 'fjs-utils/functions';
   console.log(getProp('foo', array)); // => ['foo', 'foo2']
 ```
 
-  * isArray - Returns boolean, true if input is an array
+  * **isArray** - Returns boolean, true if input is an array
 
 ```javascript
   import { isArray } from 'fjs-utils/arrays';
@@ -91,14 +94,14 @@ import { curry } from 'fjs-utils/functions';
   console.log(isArray(12)); // => false
 ```
 
-  * mean - Calculates the mean of an array of numbers
+  * **mean** - Calculates the mean of an array of numbers
 
 ```javascript
   import { mean } from 'fjs-utils/arrays';
   console.log(mean([1, 2, 3])); // => 2
 ```
 
-  * sample - Returns random values from an array
+  * **sample** - Returns random values from an array
 
 ```javascript
   import { sample } from 'fjs-utils/arrays';
@@ -107,15 +110,20 @@ import { curry } from 'fjs-utils/functions';
   console.log(sample(2, array)); // => [1, 3]
 ```
 
-  * sum - Sums an array of numbers
+  * **sum** - Sums an array of numbers
 
 ```javascript
   import { sum } from 'fjs-utils/arrays';
   console.log(sum[1, 2, 3]) // => 6
 ```
 
-#### functions
-  * curry - Accepts a function and returns a curried function
+</details>
+
+### functions
+<details>
+<summary>more</summary>
+
+  * **curry** - Accepts a function and returns a curried function
 
 ```javascript
   import { curry } from 'fjs-utils/functions';
@@ -125,7 +133,7 @@ import { curry } from 'fjs-utils/functions';
   console.log(add10(5)); // => 15
 ```
 
-  * curryRight - Accepts a function and returns a curried function that fills params in from right to left
+  * **curryRight** - Accepts a function and returns a curried function that fills params in from right to left
 
 ```javascript
   import { curryRight } from 'fjs-utils/functions';
@@ -135,15 +143,20 @@ import { curry } from 'fjs-utils/functions';
   console.log(appendBar('foo')); // => 'foobar'
 ```
 
-  * identity - returns the input unchanged
+  * **identity** - returns the input unchanged
 
 ```javascript
   import { identity } from 'fjs-utils/functions';
   console.log(identity('foo')); // => 'foo'
 ```
 
-#### numbers
-  * random - Returns a random number between min, max
+</details>
+
+### numbers
+<details>
+<summary>more</summary>
+
+  * **random** - Returns a random number between min, max
 
 ```javascript
   import { random } from 'fjs-utils/numbers';
@@ -151,8 +164,13 @@ import { curry } from 'fjs-utils/functions';
   console.log(random(1, 5, true)); // => 2.2398217
 ```
 
-#### objects
-  * converSnakeKeysToCamel - Converts an object's snake cased keys to camel cased
+</details>
+
+### objects
+<details>
+<summary>more</summary>
+
+  * **converSnakeKeysToCamel** - Converts an object's snake cased keys to camel cased
 ```javascript
   import { convertSnakeKeysToCamel } from 'fjs-utils/objects';
 
@@ -171,7 +189,7 @@ import { curry } from 'fjs-utils/functions';
   */
 ```
 
-  * removeEmptyStrings - Removes keys with empty strings from an object
+  * **removeEmptyStrings** - Removes keys with empty strings from an object
 
 ```javascript
   import { removeEmptyStrings } from 'fjs-utils/objects';
@@ -193,7 +211,7 @@ import { curry } from 'fjs-utils/functions';
   */
 ```
 
-  * removeValueFromObject - Removes keys with specified value from an object
+  * **removeValueFromObject** - Removes keys with specified value from an object
 
 ```javascript
   import { removeValueFromObject } from 'fjs-utils/objects';
@@ -216,7 +234,7 @@ import { curry } from 'fjs-utils/functions';
   */
 ```
 
-  * transformObjectKeysAndValues - transforms an object's keys and values
+  * **transformObjectKeysAndValues** - transforms an object's keys and values
 
 ```javascript
   import { transformObjectKeysAndValues } from 'fjs-utils/objects';
@@ -237,8 +255,13 @@ import { curry } from 'fjs-utils/functions';
     */
 ```
 
-#### strings
-  * append - Appends strings with specified value
+</details>
+
+### strings
+<details>
+<summary>more</summary>
+
+  * **append** - Appends strings with specified value
 
 ```javascript
   import { append } from 'fjs-utils/strings';
@@ -248,14 +271,14 @@ import { curry } from 'fjs-utils/functions';
   console.log(appendBar('foo')); // => 'foobar'
 ```
 
-  * concat - Concatenates two strings
+  * **concat** - Concatenates two strings
 
 ```javascript
   import { concat } from 'fjs-utils/strings';
   console.log(concat('foo', 'bar')); // => 'foobar'
 ```
 
-  * prepend - Prepends strings with specified value
+  * **prepend** - Prepends strings with specified value
 
 ```javascript
   import { prepend } from 'fjs-utils/strings';
@@ -264,10 +287,12 @@ import { curry } from 'fjs-utils/functions';
   console.log(prependFoo('bar')); // => 'foobar'
 ```
 
-  * snakeToCamel - Converts a snake cased string to camel cased
+  * **snakeToCamel** - Converts a snake cased string to camel cased
 
 ```javascript
   import { snakeToCamel } from 'fjs-utils/strings';
 
   console.log(snakeToCamel('snake_cased_string')); // => 'snakeCasedString'
 ```
+
+</details>
