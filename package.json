@@ -1,0 +1,67 @@
+{
+  "name": "fjs-utils",
+  "author": "Jason Matthews <jason.matthews.dev@gmail.com",
+  "version": "0.0.0-development",
+  "description": "",
+  "main": "dist",
+  "engines": {
+    "node": ">= 10"
+  },
+  "scripts": {
+    "build": "npm run clean && npx babel ./src -d ./dist",
+    "clean": "rimraf dist",
+    "lint": "npx eslint ./src ./tests",
+    "prepare": "npm run test && npm run clean && npm run build",
+    "test": "jest",
+    "test:cover": "jest --coverage",
+    "semantic-release": "semantic-release"
+  },
+  "keywords": [
+    "utility",
+    "functional",
+    "lib",
+    "js",
+    "javascript",
+    "fjs"
+  ],
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.5",
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "babel-preset-minify": "^0.5.1",
+    "cross-env": "^5.2.0",
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.15.2",
+    "husky": "^3.0.4",
+    "jest": "^24.9.0",
+    "lint-staged": "^9.2.5",
+    "rimraf": "^3.0.0",
+    "semantic-release": "^15.13.24"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JasonMatthewsDev/fjs-utils.git"
+  }
+}

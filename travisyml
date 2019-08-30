@@ -1,0 +1,11 @@
+language: node_js
+after_success:
+  - npm run release
+deploy:
+  provider: npm
+  email: jason.matthews.dev@gmail.com
+  api_key:
+    secure: frWbYRQtpOFvuF6vK4Xf+qHndYOPNTQTsNNQHWUT58OBy4BaM7XCOWFbG4n6YFAQ32I+qbEyXKAeP1ppDJh/+bw8wnBfXFELWaSsran4uJOe5xNHuYOz3K1MTQ0AIEaFY48DprgUch1v/1yS7YymEbV7bZ6SQMwUik5L3wwr8yMaPGF0jPEje81tUIqElL7pkNftyNWbQgZL1h4JGcHRzSkIc59x50AWKIz3jbARS3C1bA9dGn5/s/Kl5KstbdKRBSrRHFr+MT8BmmB6l33Ifx4JBNO4NAAwIiF8tjiqWmdHZwDIXNZMrRjahwozVH3vJofjp6Xykr92nRPk51nfw5VLgViRsgPv88Rixeag+0z8SYqw52aAWCOv88SqZN8ZBP8EpBOifr6cWlglSGhj2MPjDZPWZ+dIXL+i7DFOPjrI+nWC6L9rk6D0BYoGH3SYTeRQ4aB8Z+PK4XarVxTA4TznfyqAMzYqcyiRzuHC41JNYGIfVimOvh1x7QtVuZScr48L8sz9Puy8yGMZW3B0UPU7NnpL8REf9xYgI4ECls/rnU1+dZDeZRzlLXWtm4/E07TVgHksbCkA2TyML9Ixegadu2uq0Hf2c6z07XM3xHZEqvypIjlcSfITUR1JRkY+zW2sVmuDjhyzoYUadW89kfq8Uh/k159QTYUx8QgBSC4=
+  on:
+    tags: true
+    repo: JasonMatthewsDev/fjs-utils
