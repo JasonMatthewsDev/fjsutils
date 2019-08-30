@@ -1,7 +1,7 @@
 {
   "name": "fjs-utils",
   "author": "Jason Matthews <jason.matthews.dev@gmail.com",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "",
   "main": "dist",
   "engines": {
