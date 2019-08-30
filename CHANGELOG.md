@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.0.3...v1.0.4) (2019-08-30)
+
+
+### Bug Fixes
+
+* npmignore unnecessary files ([f78f988](https://github.com/JasonMatthewsDev/fjsutils/commit/f78f988))
+
 ## [1.0.3](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.0.2...v1.0.3) (2019-08-30)
 
 
