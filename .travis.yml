@@ -4,9 +4,6 @@ jobs:
   - stage: install
     script: npm install
     skip_cleanup: true
-  - stage: test
-    script: npm run test:cover
-    skip_cleanup: true
   - stage: release
     deploy:
       provider: script

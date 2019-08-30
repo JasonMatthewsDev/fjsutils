@@ -12,9 +12,8 @@
     "clean": "rimraf dist",
     "lint": "npx eslint ./src ./tests",
     "prepare": "npm run test && npm run clean && npm run build",
-    "test": "jest",
-    "test:cover": "jest --coverage",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "test": "jest --coverage"
   },
   "keywords": [
     "utility",
@@ -34,6 +33,12 @@
     "@babel/preset-env": "^7.5.5",
     "@commitlint/cli": "^8.1.0",
     "@commitlint/config-conventional": "^8.1.0",
+    "@semantic-release/changelog": "^3.0.4",
+    "@semantic-release/commit-analyzer": "^6.3.0",
+    "@semantic-release/git": "^7.0.16",
+    "@semantic-release/github": "^5.4.3",
+    "@semantic-release/npm": "^5.1.15",
+    "@semantic-release/release-notes-generator": "^7.3.0",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^24.9.0",
     "babel-preset-minify": "^0.5.1",
