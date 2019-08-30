@@ -8,5 +8,5 @@ commitlint.config.js
 .travis.yml
 .releaserc
 .nvmrc
-.eslint
+.eslintrc
 .editorconfig
