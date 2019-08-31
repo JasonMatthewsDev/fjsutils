@@ -6,8 +6,8 @@ describe('shuffle', () => {
   });
 
   it('should randomize the order of an array', () => {
-    const array = Array.from(Array(1000).keys());
+    const array = [...Array(1000).keys()];
     expect(shuffle(array)).not.toEqual(array);
-    expect(array).toEqual(Array.from(Array(1000).keys()));
+    expect(array).toEqual([...Array(1000).keys()]);
   });
 });

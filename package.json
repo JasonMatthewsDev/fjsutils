@@ -10,6 +10,7 @@
   "scripts": {
     "build": "npm run clean && npx babel ./src -d ./dist",
     "clean": "rimraf dist",
+    "copypackage": "cp -rf package.json dist",
     "lint": "npx eslint ./src ./tests",
     "semantic-release": "semantic-release",
     "test": "jest --coverage"

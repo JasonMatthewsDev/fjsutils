@@ -11,5 +11,5 @@ jobs:
       provider: script
       skip_cleanup: true
       script:
-      - npm run build && npx semantic-release
+      - npm run build && npm run copypackage && cd dist && npx semantic-release
     if: branch = master
