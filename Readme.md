@@ -157,6 +157,17 @@ import { curry } from 'fjs-utils/functions';
   console.log(identity('foo')); // => 'foo'
 ```
 
+  * **memoize** - returns the input unchanged
+
+```javascript
+  import { memoize } from 'fjs-utils/functions';
+
+  const fn = (one, two) => `${one}${two}`;
+  const memoizedFn = memoize(fn);
+
+  console.log(memoizedFn('foo', 'bar')); // => 'foobar'
+```
+
 </details>
 
 ### numbers
@@ -300,6 +311,39 @@ import { curry } from 'fjs-utils/functions';
   import { snakeToCamel } from 'fjs-utils/strings';
 
   console.log(snakeToCamel('snake_cased_string')); // => 'snakeCasedString'
+```
+
+</details>
+
+### Utils
+<details>
+<summary>more</summary>
+
+  * **debounce** - debounces a function. Third paramater can be used to allow the function to be invoked immediately
+
+```javascript
+    import { debounce } from 'fjs-utils/utils';
+    const fn = () => console.log('foo');
+    const debouncedFn = debounce(fn, 100);
+    debouncedFn();
+    debouncedFn();
+    await new Promise(resolve => setTimeout(resolve, 200));
+    /*
+      'foo'
+    */
+```
+
+  * **wait** - returns a promise that resolves after n milliseconds
+  
+```javascript
+  import { wait } from 'fjs-utils/utils';
+  const fn = async () => {
+    console.log(new Date()); // => 0
+    await wait(100);
+    console.log(new Date()); // => 100
+  };
+
+  fn();
 ```
 
 </details>
