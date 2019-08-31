@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.2.0...v1.3.0) (2019-08-31)
+
+
+### Features
+
+* **arrays:** add shuffle function ([28ffb16](https://github.com/JasonMatthewsDev/fjsutils/commit/28ffb16))
+
 # [1.2.0](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.1.0...v1.2.0) (2019-08-31)
 
 
