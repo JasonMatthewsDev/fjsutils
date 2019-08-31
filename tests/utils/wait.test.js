@@ -9,6 +9,6 @@ describe('wait', () => {
     const start = new Date();
     await wait(100);
     const end = new Date();
-    expect(end - start).toBeGreaterThanOrEqual(100);
+    expect(end - start).toBeGreaterThanOrEqual(95);
   });
 });

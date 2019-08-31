@@ -165,7 +165,7 @@ import { curry } from 'fjs-utils/functions';
   console.log(identity('foo')); // => 'foo'
 ```
 
-  * **memoize** - returns the input unchanged
+  * **memoize** - returns a function that will memoize the arguments
 
 ```javascript
   import { memoize } from 'fjs-utils/functions';
