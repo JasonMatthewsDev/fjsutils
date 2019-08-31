@@ -112,9 +112,17 @@ import { curry } from 'fjs-utils/functions';
 
 ```javascript
   import { sample } from 'fjs-utils/arrays';
-  const array [1, 2, 3, 4];
+  const array = [1, 2, 3, 4];
   console.log(sample(1, array)); // => [2]
   console.log(sample(2, array)); // => [1, 3]
+```
+
+  * **shuffle** - Returns a new array with the order radonmized
+
+```javascript
+  import { shuffle } from 'fjs-utils/arrays';
+  const array = [1, 2, 3, 4, 5];
+  console.log(shuffle(array)); // => [3, 1, 2, 5, 4];
 ```
 
   * **sum** - Sums an array of numbers
