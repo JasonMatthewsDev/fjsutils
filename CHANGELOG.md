@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.1.0...v1.2.0) (2019-08-31)
+
+
+### Features
+
+* **utils:** Add debounce and wait functions ([42159b3](https://github.com/JasonMatthewsDev/fjsutils/commit/42159b3))
+
 # [1.1.0](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.0.5...v1.1.0) (2019-08-30)
 
 
