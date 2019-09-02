@@ -119,7 +119,7 @@ import { curry } from 'fjs-utils/functions';
   console.log(sample(2, array)); // => [1, 3]
 ```
 
-  * **shuffle** - Returns a new array with the order radonmized
+  * **shuffle** - Returns a new array with the order randonmized
 
 ```javascript
   import { shuffle } from 'fjs-utils/arrays';
