@@ -1,6 +1,6 @@
-const removeValueFromObject = (val, obj) => Object.keys(obj).reduce((newObj, key) => ({
-  ...newObj,
-  ...(obj[key] !== val && { [key]: obj[key] }),
-}), {});
+import { removeFromObject } from ".";
+
+const removeValueFromObject = (findVal, obj) =>
+  removeFromObject(({ val }) => val === findVal, obj);
 
 export default removeValueFromObject;

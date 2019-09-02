@@ -1,6 +1,7 @@
 # FJS-Utils
 [![Build Status](https://travis-ci.com/JasonMatthewsDev/fjsutils.svg?branch=master)](https://travis-ci.com/JasonMatthewsDev/fjsutils)
 [![Coverage Status](https://coveralls.io/repos/github/JasonMatthewsDev/fjsutils/badge.svg?branch=master)](https://coveralls.io/github/JasonMatthewsDev/fjsutils?branch=master)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
 A collection of javascript utility functions written in a functional style.
 
@@ -12,6 +13,7 @@ A collection of javascript utility functions written in a functional style.
 4. [numbers](#numbers)
 5. [objects](#objects)
 6. [strings](#strings)
+7. [utils](#utils)
 
 ## Installation
 ```

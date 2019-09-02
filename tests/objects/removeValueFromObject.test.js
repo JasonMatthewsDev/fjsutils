@@ -1,4 +1,4 @@
-import removeValueFromObject from '../../src/objects/removeValueFromObject';
+import { removeValueFromObject } from '../../src/objects';
 
 describe('removeValueFromObject', () => {
   it('should be a function', () => {

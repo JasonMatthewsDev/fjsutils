@@ -1,0 +1,19 @@
+{
+  "Test File": {
+    "prefix": "test",
+    "description": "snippet for starting a test file",
+    "body": [
+      "import { ${1:name} } from '../../src/${2:module}';",
+      "",
+      "describe('${1:name}', () => {",
+      "\tit('should be a function', () => {",
+      "\t\texpect(${1:name}).toBeInstanceOf(Function);",
+      "\t});",
+      "",
+      "\tit('should ${3:do something else}', () => {",
+      "\t\t${0}",
+      "\t});",
+      "});"
+    ]
+  }
+}
