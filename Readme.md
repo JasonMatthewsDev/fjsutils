@@ -3,7 +3,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/JasonMatthewsDev/fjsutils/badge.svg?branch=master)](https://coveralls.io/github/JasonMatthewsDev/fjsutils?branch=master)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
-A collection of javascript utility functions written in a functional style.
+A small foot print collection of javascript utility functions written in a functional style without any external dependancies.
 
 ## Table of contents
 
@@ -217,10 +217,39 @@ import { curry } from 'fjs-utils/functions';
   */
 ```
 
+  * **isObject** - Returns true if input is an object
+
+```javascript
+  import { isObject } from 'fjs-utils/objects';
+
+  const obj = {};
+  const array = [];
+  const fn = () => {};
+  const str = '';
+  console.log(isObject(obj), isObject(array), isObject(fn), isObject(str)); // => true false false false
+```
+
+  * **omit** - Omits keys from an object
+
+```javascript
+  import { omit } from 'fjs-utils/objects';
+
+  const obj = {
+    one: 1,
+    two: 2,
+    three: 3,
+    four: 4,
+    five: 5,
+  };
+
+  console.log(omit['one', 'two', 'three', 'four'], obj); // => { five: 5 }
+```
+
   * **removeEmptyStrings** - Removes keys with empty strings from an object
 
 ```javascript
   import { removeEmptyStrings } from 'fjs-utils/objects';
+  
   const obj = {
     one: 'one',
     two: '',
@@ -237,6 +266,26 @@ import { curry } from 'fjs-utils/functions';
     five: 'five',
   }
   */
+```
+
+  * **removeFromObject** - Removes properties from an object based on a comparator
+
+```javascript
+  import { removeFromObject } from 'fjs-utils/objects';
+
+  const obj = {
+    one: 1,
+    two: 2,
+    three: 3,
+    four: 4,
+    five: 5,
+  };
+
+  const removeGreaterThan3 = ({ val }) => val > 3;
+  const removeTwo = ({ key }) => key === 'two';
+  const remove = prop => removeGreaterThan3(prop) || removeTwo(prop);
+
+  console.log(removeGreaterThan3, obj); // => { one: 1, three: 3 }
 ```
 
   * **removeValueFromObject** - Removes keys with specified value from an object
