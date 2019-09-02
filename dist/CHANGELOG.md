@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.4.0...v1.5.0) (2019-09-02)
+
+
+### Features
+
+* **omit:** add ability to omit a single key by string from an object ([37d29b0](https://github.com/JasonMatthewsDev/fjsutils/commit/37d29b0))
+
 # [1.4.0](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.3.2...v1.4.0) (2019-09-02)
 
 
