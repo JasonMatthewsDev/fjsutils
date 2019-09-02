@@ -5,7 +5,7 @@ describe('omit', () => {
     expect(omit).toBeInstanceOf(Function);
   });
 
-  it('should remove keys from an object', () => {
+  it('should remove an array of keys from an object', () => {
     const obj = {
       one: 'one',
       two: 'two',
@@ -19,5 +19,15 @@ describe('omit', () => {
       three: 'three',
       five: 'five',
     });
+  });
+
+  it('should omit a single key by string', () => {
+    const obj = {
+      one: 1,
+      two: 2,
+      three: 3,
+    };
+  
+    expect(omit('one', obj)).toEqual({ two: 2, three: 3});
   });
 });
