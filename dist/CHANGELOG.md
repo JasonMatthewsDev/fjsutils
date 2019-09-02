@@ -1,4 +1,4 @@
-## [1.3.1](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.3.0...v1.3.1) (2019-08-31)
+## [1.3.2](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.3.1...v1.3.2) (2019-08-31)
 
 
 ### Bug Fixes
@@ -67,3 +67,4 @@
 ### Features
 
 * Initial Release ([13aa76a](https://github.com/JasonMatthewsDev/fjsutils/commit/13aa76a))
+* readme ([d49998e](https://github.com/JasonMatthewsDev/fjsutils/commit/d49998e))
