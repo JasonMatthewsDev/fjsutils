@@ -8,8 +8,7 @@
     "node": ">= 10"
   },
   "scripts": {
-    "build": "npm run clean && npx babel ./src -d ./dist",
-    "clean": "rimraf dist",
+    "build": "npx babel ./src -d ./dist",
     "copyfiles": "npm run copy:package && npm run copy:readme",
     "copy:package": "cp -rf package.json dist",
     "copy:readme": "cp -rf Readme.md dist",
@@ -53,7 +52,6 @@
     "husky": "^3.0.4",
     "jest": "^24.9.0",
     "lint-staged": "^9.2.5",
-    "rimraf": "^3.0.0",
     "semantic-release": "^15.13.24",
     "sinon": "^7.4.1"
   },
