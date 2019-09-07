@@ -1,3 +1,11 @@
+# [1.7.0](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.6.0...v1.7.0) (2019-09-07)
+
+
+### Features
+
+* **arrays:** Add bifurcate functions ([e8ae4ca](https://github.com/JasonMatthewsDev/fjsutils/commit/e8ae4ca))
+* **arrays:** Add countOccurrences function ([7e37dc5](https://github.com/JasonMatthewsDev/fjsutils/commit/7e37dc5))
+
 # [1.6.0](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.5.0...v1.6.0) (2019-09-07)
 
 

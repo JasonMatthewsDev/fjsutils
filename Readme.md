@@ -2,7 +2,8 @@
 [![Build Status](https://travis-ci.com/JasonMatthewsDev/fjsutils.svg?branch=master)](https://travis-ci.com/JasonMatthewsDev/fjsutils)
 [![Coverage Status](https://coveralls.io/repos/github/JasonMatthewsDev/fjsutils/badge.svg?branch=master)](https://coveralls.io/github/JasonMatthewsDev/fjsutils?branch=master)
 [![npm version](http://img.shields.io/npm/v/fjs-utils.svg?style=flat)](https://npmjs.org/package/fjs-utils "View this project on npm")
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+[![gzip-size](https://badgen.net/bundlephobia/minzip/fjs-utils)](https://bundlephobia.com/result?p=fjs-utils)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-blue.svg)](https://conventionalcommits.org)
 
 A small foot print collection of javascript utility functions written in a functional style without any external dependancies.
 
