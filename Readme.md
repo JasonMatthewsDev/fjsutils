@@ -73,6 +73,14 @@ import { curry } from 'fjs-utils/functions';
   console.log(any(Boolean, array)); // => true
 ```
 
+  * **bifurcate** - Seperates an array by supplied function.
+
+```javascript
+  import { bifurcate } from 'fjs-utils/arrays';
+
+  const array = [true, 0, 'str', false, {}, ''];
+  console.log(bifurcate(Boolean, array)) // => [[true, 'str', {}], [0, false, '']]
+```
 
   * **chunk** - Splits an array into chunks
 
