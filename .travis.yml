@@ -5,7 +5,16 @@ jobs:
     script: npm install
     skip_cleanup: true
   - stage: test
-    script: jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
+    before_script:
+      - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+      - chmod +x ./cc-test-reporter
+      - ./cc-test-reporter before-build
+    script: 
+      - jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
+    after_script:
+      - ./cc-test-reporter after-build -t lcov -r $CODE_CLIMATE
+      - rm -rf ./coverage
+
   - stage: release
     deploy:
       provider: script

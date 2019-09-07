@@ -1,6 +1,7 @@
 # FJS-Utils
 [![Build Status](https://travis-ci.com/JasonMatthewsDev/fjsutils.svg?branch=master)](https://travis-ci.com/JasonMatthewsDev/fjsutils)
 [![Coverage Status](https://coveralls.io/repos/github/JasonMatthewsDev/fjsutils/badge.svg?branch=master)](https://coveralls.io/github/JasonMatthewsDev/fjsutils?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/cb4684595a5da875ab91/maintainability)](https://codeclimate.com/github/JasonMatthewsDev/fjsutils/maintainability)
 [![npm version](http://img.shields.io/npm/v/fjs-utils.svg?style=flat)](https://npmjs.org/package/fjs-utils "View this project on npm")
 [![gzip-size](https://badgen.net/bundlephobia/minzip/fjs-utils)](https://bundlephobia.com/result?p=fjs-utils)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-blue.svg)](https://conventionalcommits.org)
