@@ -1,16 +1,26 @@
+# [1.6.0](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.5.0...v1.6.0) (2019-09-07)
+
+
+### Features
+
+* **arrays:** Add all function ([1844357](https://github.com/JasonMatthewsDev/fjsutils/commit/1844357))
+* **arrays:** Add any function ([5ca3898](https://github.com/JasonMatthewsDev/fjsutils/commit/5ca3898))
+* **functions:** Add multi function ([c347a8e](https://github.com/JasonMatthewsDev/fjsutils/commit/c347a8e))
+* **functions:** Add pipe function ([82fd3f3](https://github.com/JasonMatthewsDev/fjsutils/commit/82fd3f3))
+
 # [1.5.0](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.4.0...v1.5.0) (2019-09-02)
 
 
 ### Features
 
-* **omit:** add ability to omit a single key by string from an object ([37d29b0](https://github.com/JasonMatthewsDev/fjsutils/commit/37d29b0))
+* **omit:** Aadd ability to omit a single key by string from an object ([37d29b0](https://github.com/JasonMatthewsDev/fjsutils/commit/37d29b0))
 
 # [1.4.0](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.3.2...v1.4.0) (2019-09-02)
 
 
 ### Features
 
-* **objects:** add omit, remove from objects, remove value from objects ([4411d0a](https://github.com/JasonMatthewsDev/fjsutils/commit/4411d0a))
+* **objects:** Add omit, remove from objects, remove value from objects ([4411d0a](https://github.com/JasonMatthewsDev/fjsutils/commit/4411d0a))
 
 ## [1.3.2](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.3.1...v1.3.2) (2019-08-31)
 
@@ -24,7 +34,7 @@
 
 ### Features
 
-* **arrays:** add shuffle function ([28ffb16](https://github.com/JasonMatthewsDev/fjsutils/commit/28ffb16))
+* **arrays:** Add shuffle function ([28ffb16](https://github.com/JasonMatthewsDev/fjsutils/commit/28ffb16))
 
 # [1.2.0](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.1.0...v1.2.0) (2019-08-31)
 
@@ -52,7 +62,7 @@
 
 ### Bug Fixes
 
-* npmignore unnecessary files ([f78f988](https://github.com/JasonMatthewsDev/fjsutils/commit/f78f988))
+* npm ignore unnecessary files ([f78f988](https://github.com/JasonMatthewsDev/fjsutils/commit/f78f988))
 
 ## [1.0.3](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.0.2...v1.0.3) (2019-08-30)
 
