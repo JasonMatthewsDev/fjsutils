@@ -7,6 +7,7 @@ module.exports = {
       statements: 100
     }
   },
+  coveragePathIgnorePatterns: ['index.js'],
   transform: {
     "^.+\\.js$": "babel-jest",
     "^.+\\.jsx$": "babel-jest"
