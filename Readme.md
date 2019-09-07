@@ -64,6 +64,16 @@ import { curry } from 'fjs-utils/functions';
   console.log(all(Boolean, array)); // => true
 ```
 
+  * **any** - Tests each value with provided functions and returns true if any results are truthy. It's Array.prototype.some renamed
+
+```javascript
+  import { any } from 'fjs-utils/arrays';
+
+  const array = [false, false, true];
+  console.log(any(Boolean, array)); // => true
+```
+
+
   * **chunk** - Splits an array into chunks
 
 ```javascript
