@@ -55,6 +55,15 @@ import { curry } from 'fjs-utils/functions';
 <details>
 <summary>more</summary>
 
+  * **all** - Tests each value with provided functions and returns true if all results are truthy. It's Array.prototype.every renamed
+
+```javascript
+  import { all } from 'fjs-utils/arrays';
+
+  const array = [true, true, true];
+  console.log(all(Boolean, array)); // => true
+```
+
   * **chunk** - Splits an array into chunks
 
 ```javascript
