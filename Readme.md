@@ -91,6 +91,14 @@ import { curry } from 'fjs-utils/functions';
   console.log(chunk(3, array)); // => [[1, 2, 3], [4, 5, 6], [7, 8, 9], [0]]
 ```
 
+  * **countOccurences** - counts the occurences of a value in an array
+
+```javascript
+  import { countOccurrences } from 'fjs-utils/arrays';
+
+  console.log(countOccurrences(1, [1, 2, 3, 2, 1, 1, 2, 3, 2, 1])); //=> 4
+```
+
   * **flatten** - Flattens an array 1 level
 
 ```javascript
