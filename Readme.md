@@ -14,6 +14,7 @@ A small foot print collection of javascript utility functions written in a funct
 5. [objects](#objects)
 6. [strings](#strings)
 7. [utils](#utils)
+8. [faq](#faq)
 
 ## Installation
 ```
@@ -176,6 +177,15 @@ import { curry } from 'fjs-utils/functions';
   const memoizedFn = memoize(fn);
 
   console.log(memoizedFn('foo', 'bar')); // => 'foobar'
+```
+
+  * **multi** - returns a function that will return an array of results from multiple functions
+
+```javascript
+  import { multi } from 'fjs-utils/functions';
+
+  const maxMin = multi(Math.max, Math.min);
+  console.log(maxMin(...[...Array(501).keys()])); // => [500, 0]
 ```
 
 </details>
@@ -405,4 +415,15 @@ import { curry } from 'fjs-utils/functions';
   fn();
 ```
 
+</details>
+
+## FAQ
+
+<details>
+<summary>expand</summary>
+
+  * **How is this different than lodash or ramda?**
+    * For one it's not the same set of functions
+    * Lodash specifically puts the array or object first which limits the composability
+    * This libraray has a different goal than ramda. Ramda's goal is to make functional programming easier in JS. While there are functional concepts here, that's only so it can remain external dependency free.
 </details>
