@@ -1,3 +1,13 @@
+# [1.6.0](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.5.0...v1.6.0) (2019-09-07)
+
+
+### Features
+
+* **arrays:** add all function ([1844357](https://github.com/JasonMatthewsDev/fjsutils/commit/1844357))
+* **arrays:** Add any function ([5ca3898](https://github.com/JasonMatthewsDev/fjsutils/commit/5ca3898))
+* **functions:** Add multi function ([c347a8e](https://github.com/JasonMatthewsDev/fjsutils/commit/c347a8e))
+* **functions:** add pipe function ([82fd3f3](https://github.com/JasonMatthewsDev/fjsutils/commit/82fd3f3))
+
 # [1.5.0](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.4.0...v1.5.0) (2019-09-02)
 
 
