@@ -1,3 +1,13 @@
+## [1.7.1](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.7.0...v1.7.1) (2020-07-20)
+
+
+### Bug Fixes
+
+* dependencies ([c6e6e58](https://github.com/JasonMatthewsDev/fjsutils/commit/c6e6e58dcac000296557cb0afe4793764c482000))
+* need to bump to restart ci :slightly_frowning_face: ([d25b376](https://github.com/JasonMatthewsDev/fjsutils/commit/d25b37686bdbe54172babd2210e90c2828444c38))
+* **object:** isObject date is now false ([02bc8a6](https://github.com/JasonMatthewsDev/fjsutils/commit/02bc8a62e805baf0f07ebd27268172a43f9c5653))
+* **objects:** transform object keys and values reduce no longer creates an o(n^2) issue ([a2feb25](https://github.com/JasonMatthewsDev/fjsutils/commit/a2feb25073e80d84dfb00a940cc4c18485582a17))
+
 # [1.7.0](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.6.0...v1.7.0) (2019-09-07)
 
 
