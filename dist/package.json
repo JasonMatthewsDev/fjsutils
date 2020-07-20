@@ -1,14 +1,14 @@
 {
   "name": "fjs-utils",
   "author": "Jason Matthews <jason.matthews.dev@gmail.com",
-  "version": "1.7.1",
+  "version": "1.7.2",
   "description": "",
   "main": "dist",
   "engines": {
     "node": ">= 10"
   },
   "scripts": {
-    "build": "npx babel ./src -d ./dist",
+    "build": "npx babel-cli ./src -d ./dist",
     "copyfiles": "npm run copy:package && npm run copy:readme",
     "copy:package": "cp -rf package.json dist",
     "copy:readme": "cp -rf Readme.md dist",

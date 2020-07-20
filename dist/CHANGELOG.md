@@ -1,3 +1,11 @@
+## [1.7.2](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.7.1...v1.7.2) (2020-07-20)
+
+
+### Bug Fixes
+
+* build config and need to bump ([ea7abe0](https://github.com/JasonMatthewsDev/fjsutils/commit/ea7abe03b1183751c48c16ebed369446a5509e11))
+* **objects:** removeFromObjects fix for o(n^2) issue ([180fc9b](https://github.com/JasonMatthewsDev/fjsutils/commit/180fc9bddbc9af3a0d84f060a7fae2634992a408))
+
 ## [1.7.1](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.7.0...v1.7.1) (2020-07-20)
 
 
