@@ -9,7 +9,8 @@ module.exports = {
   },
   coveragePathIgnorePatterns: ['index.js'],
   transform: {
-    "^.+\\.js$": "babel-jest",
-    "^.+\\.jsx$": "babel-jest"
-  }
+    '^.+\\.js$': 'babel-jest',
+    '^.+\\.jsx$': 'babel-jest'
+  },
+  modulePathIgnorePatterns: ['<rootDir>/dist/package.json']
 };

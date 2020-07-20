@@ -8,7 +8,7 @@
     "node": ">= 10"
   },
   "scripts": {
-    "build": "npx babel ./src -d ./dist",
+    "build": "npx babel-cli ./src -d ./dist",
     "copyfiles": "npm run copy:package && npm run copy:readme",
     "copy:package": "cp -rf package.json dist",
     "copy:readme": "cp -rf Readme.md dist",
