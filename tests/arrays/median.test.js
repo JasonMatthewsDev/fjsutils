@@ -14,4 +14,4 @@ describe('median', () => {
     const array = [7, 4, 9, 1, 5, 6];
     expect(median(array)).toBe(5.5);
   });
-})
+});

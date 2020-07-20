@@ -27,7 +27,7 @@ describe('omit', () => {
       two: 2,
       three: 3,
     };
-  
-    expect(omit('one', obj)).toEqual({ two: 2, three: 3});
+
+    expect(omit('one', obj)).toEqual({ two: 2, three: 3 });
   });
 });

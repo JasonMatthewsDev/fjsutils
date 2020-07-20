@@ -7,7 +7,7 @@ describe('memoize', () => {
 
   it('should return a new function', () => {
     const fn = (one, two) => `${one}${two}`;
-  
+
     expect(memoize(fn)).toBeInstanceOf(Function);
   });
 

@@ -2,10 +2,11 @@
   "parser": "babel-eslint",
   "extends": "airbnb-base/legacy",
   "rules": {
-    "comma-dangle": ["error", "only-multiline"],
+    "comma-dangle": ["error", "only-multiline"]
   },
   "plugins": ["jest"],
   "env": {
+    "es6": true,
     "jest": true
   }
 }
