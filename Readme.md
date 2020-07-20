@@ -247,7 +247,7 @@ import { curry } from 'fjs-utils/functions';
 <details>
 <summary>more</summary>
 
-  * **converSnakeKeysToCamel** - Converts an object's snake cased keys to camel cased
+  * **convertSnakeKeysToCamel** - Converts an object's snake cased keys to camel cased
 ```javascript
   import { convertSnakeKeysToCamel } from 'fjs-utils/objects';
 
