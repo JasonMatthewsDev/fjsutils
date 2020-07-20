@@ -1,5 +1,5 @@
 A small foot print collection of javascript utility functions written in a functional style without any external dependancies.
-
+ 
 # FJS-Utils
 [![Build Status](https://travis-ci.com/JasonMatthewsDev/fjsutils.svg?branch=master)](https://travis-ci.com/JasonMatthewsDev/fjsutils)
 [![Coverage Status](https://coveralls.io/repos/github/JasonMatthewsDev/fjsutils/badge.svg?branch=master)](https://coveralls.io/github/JasonMatthewsDev/fjsutils?branch=master)
