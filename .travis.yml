@@ -3,7 +3,6 @@ jobs:
   include:
   - stage: install
     script: npm install
-    skip_cleanup: true
   - stage: test
     before_script:
       - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
@@ -18,7 +17,6 @@ jobs:
   - stage: release
     deploy:
       provider: script
-      skip_cleanup: true
       script:
       - npm run build && npm run copyfiles && cd dist && npx semantic-release
     if: branch = master
