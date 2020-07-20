@@ -1,3 +1,10 @@
+## [1.7.3](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.7.2...v1.7.3) (2020-07-20)
+
+
+### Bug Fixes
+
+* force ci to re-release ([1018d1d](https://github.com/JasonMatthewsDev/fjsutils/commit/1018d1db965238ae8e5977c336600dafdc844f0f))
+
 ## [1.7.2](https://github.com/JasonMatthewsDev/fjsutils/compare/v1.7.1...v1.7.2) (2020-07-20)
 
 
